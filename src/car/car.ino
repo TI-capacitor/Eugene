@@ -4,12 +4,12 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-const int leftPin1  = 4;
-const int leftPin2  = 5;
-const int rightPin3 = 6;
-const int rightPin4 = 7;
-const int enA = 11;
-const int enB = 10;
+const int leftPin1  = 7;
+const int leftPin2  = 8;
+const int rightPin3 = 9;
+const int rightPin4 = 10;
+const int enA = 6;
+const int enB = 11;
 const int trigPin   = 2;  // ultrasound trigger
 const int echoPin   = 3;  // ultrasound echo
 
