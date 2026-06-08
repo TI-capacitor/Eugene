@@ -9,7 +9,7 @@
 - Implementation of hardware interrupt for state machine to toggle between ultrasound and BT mode with push button
 - Addition of classes for abstraction and cleaner main script
 - Better power management using 3.7v 18650 batteries in 2S configuration
-**Release date: 6/15/2026 00:00
+**Release date: 6/15/2026 00:00**
 
 
 
