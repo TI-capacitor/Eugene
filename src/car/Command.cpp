@@ -17,17 +17,28 @@ void Command::parseCommand() {
   Serial.print("Received: ");
   Serial.println(inputString);
 
-  if(inputString == "front") { Serial.println("MOVING FORWARD..."); }
+  if(inputString == "front") { 
+  Serial.println("MOVING FORWARD...");
+   }
   
-  else if(inputString == "back") { Serial.println("MOVING BACKWARD...");  }
+  else if(inputString == "back") {
+    Serial.println("MOVING BACKWARD..."); 
+     }
   
-  else if(inputString == "pivot.right") { Serial.println("PIVOT RIGHT"); }
+  else if(inputString == "pivot.right") {
+    Serial.println("PIVOT RIGHT"); 
+    }
 
-  else if(inputString == "pivot.left") { Serial.println("PIVOT LEFT"); }
+  else if(inputString == "pivot.left") {
+    Serial.println("PIVOT LEFT"); 
+    }
 
 
-  else Serial.println("Unknown command");
-  listOfCommands();
+  else  {
+    Serial.println("Unknown command");
+    listOfCommands();
+  }
+  
 
   // Reset buffer
   inputString = "";
