@@ -3,8 +3,7 @@
 ### Planned changes(v0.2.0-pre-alpha):
 
 - Elimination of `delay()` in place of `millis()` algorithm
-- Elimination of LCD module to focus on movement development
-- Better ultrasound sensing with timer interrupts
+- Elimination of LCD module and ultrasound sensing to focus on movement development
 - Addition of Bluetooth module zs-040 to control the rover via `Serial Bluetooth Terminal`
 - Implementation of hardware interrupt for state machine to toggle between ultrasound and BT mode with push button
 - Addition of classes for abstraction and cleaner main script
