@@ -9,7 +9,9 @@ The next iteration is **v0.2.0**, set to release on **June 15, 2026**.
 - Better ultrasound sensing with timer interrupts
 - Addition of Bluetooth module zs-040 to control the rover via `Serial Bluetooth Terminal`
 - Implementation of hardware interrupt for state machine to toggle between ultrasound and BT mode with push button
-- Better power management with the addition of a DC-DC converter
+- Addition of classes for abstraction and cleaner main script
+- Better power management using 3.7v 18650 batteries in 2S configuration
+
 
 
 
