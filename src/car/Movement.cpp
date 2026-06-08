@@ -7,6 +7,7 @@ Movement::Movement(int left1,int left2,int right1,int right2,int enableA,int ena
       In4 = right2;
       EnA = enableA;
       EnB = enableB;
+      
 }
 
 void Movement::begin(){
@@ -55,11 +56,6 @@ void Movement::pivotLeft() {
 //in progress
 }
   
-void Movement::curveRight() {
-//in progress
-}
-void Movement::curveLeft() {
-  //in progress
-}
+
 
 
