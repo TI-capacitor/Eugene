@@ -1,12 +1,13 @@
 #include "Movement.h"
 
-Movement::Movement(int left1,int left2,int right1,int right2,int enableA,int enableB){
-      In1 = left1;
-      In2 = left2;
-      In3 = right1;
-      In4 = right2;
-      EnA = enableA;
-      EnB = enableB;
+Movement::Movement(int In1,int In2,int In3,int In4,int EnA,int EnB){
+  this->In1 = In1;
+  this->In2 = In2;
+  this->In3 = In3;
+  this->In4 = In4;
+  this->EnA = EnA;
+  this->EnB = EnB;
+
       
 }
 

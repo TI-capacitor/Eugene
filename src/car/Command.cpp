@@ -14,6 +14,7 @@ void Command::readCommand() {
 void Command::parseCommand() {
   if (!stringComplete) return;
   inputString.trim();
+  inputString.toLowerCase();
   Serial.print("Received: ");
   Serial.println(inputString);
 
@@ -34,7 +35,7 @@ void Command::parseCommand() {
     }
 
 
-  else  {
+  else {
     Serial.println("Unknown command");
     listOfCommands();
   }
