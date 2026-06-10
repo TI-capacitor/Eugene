@@ -10,7 +10,6 @@ class Command{
 
   public:
     //command methods
-
     void readCommand();
     void parseCommand();
     void listOfCommands();
