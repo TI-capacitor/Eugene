@@ -24,8 +24,12 @@ void Command::parseCommand() {
   
   else if(inputString == "back") {
     Serial.println("MOVING BACKWARD..."); 
-     }
+    }
   
+  else if(inputString == "stop") {
+    Serial.println("MOVING BACKWARD..."); 
+    }
+
   else if(inputString == "pivot.right") {
     Serial.println("PIVOT RIGHT"); 
     }

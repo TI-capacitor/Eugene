@@ -1,15 +1,15 @@
 #include "Movement.h"
 #include "Command.h"
 
-const int leftPin1  = 7;
-const int leftPin2  = 8;
-const int rightPin3 = 9;
-const int rightPin4 = 10;
-const int enA = 6;
-const int enB = 11;
+const int In1  = 7;
+const int In2  = 8;
+const int In3 = 9;
+const int In4 = 10;
+const int EnA = 6;
+const int EnB = 11;
 Command cmd;
 
-Movement rover(leftPin1,leftPin2,rightPin3,rightPin4,enA,enB);
+Movement rover(In1,In2,In3,In4,EnA,EnB);
 
 void setup() {
   rover.begin();

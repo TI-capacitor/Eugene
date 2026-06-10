@@ -6,9 +6,8 @@
 
 class Movement{
   private:
-    int In1, In2;
-    int In3, In4;
-    int EnA, EnB;
+    int In1, In2, In3, In4, EnA, EnB;
+   
   public:
     //constructor
     Movement(int,int,int,int,int,int);

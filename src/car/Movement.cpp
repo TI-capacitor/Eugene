@@ -1,15 +1,6 @@
 #include "Movement.h"
 
-Movement::Movement(int In1,int In2,int In3,int In4,int EnA,int EnB){
-  this->In1 = In1;
-  this->In2 = In2;
-  this->In3 = In3;
-  this->In4 = In4;
-  this->EnA = EnA;
-  this->EnB = EnB;
-
-      
-}
+Movement::Movement(int In1,int In2,int In3,int In4,int EnA,int EnB) {}
 
 void Movement::begin(){
   pinMode(In1,OUTPUT);
@@ -18,8 +9,6 @@ void Movement::begin(){
   pinMode(In4,OUTPUT);
   pinMode(EnA,OUTPUT);
   pinMode(EnB,OUTPUT);
-
-
 
 }
 void Movement::stopMotors() {
@@ -49,6 +38,7 @@ void Movement::backward() {
   analogWrite(EnA,255);
   analogWrite(EnB,255);
 }
+
 void Movement::pivotRight() {
  //in progress
 }
