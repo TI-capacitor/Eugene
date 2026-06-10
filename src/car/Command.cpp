@@ -46,7 +46,12 @@ void Command::parseCommand() {
 }
 
 void Command::listOfCommands(){
-  Serial.print("| LIST OF POSSIBLE COMMANDS |\n");
+  Serial.println(" _________________________________________");
+  Serial.println("|        LIST OF POSSIBLE COMMANDS        |");
+  Serial.println("|--------------- Movements ---------------|");
+  Serial.println("| front - Moves the rover forward         |\n| back - Moves the rover backward         |");
+  Serial.println("| stop - Halts movement                   |\n| pivot.left - Pivots rover to the left   |\n| pivor.right - Pivots to the right       |");
+  Serial.println(" ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾");
   //list commands here
 
 }
