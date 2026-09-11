@@ -6,13 +6,13 @@ Bluetooth-controlled rover built on an Arduino Uno and an L298N dual H-bridge. C
 
 On linux:
 
-```
+``` bash
 git clone git@github.com:TI-capacitor/Eugene.git
 ```
 
 Then change into the directory:
 
-```
+``` bash
 cd Eugene
 ```
 
