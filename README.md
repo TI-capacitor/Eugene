@@ -40,7 +40,7 @@ The files are ordered as follows:
 
 ### Command class
 
-```
+``` c++
 class Command
 {
   public:
@@ -56,7 +56,7 @@ class Command
 
 ### Movement class
 
-```
+``` c++
 class Movement
 {
   public:
@@ -68,7 +68,7 @@ class Movement
     void pivotRight();
     void pivotLeft();
 };
-```
+``` 
 
 * `Movement(int,int,int,int,int,int)`: Constructor. Takes the six pin numbers in the order `In1, In2, In3, In4, EnA, EnB`.
 * `begin()`: Sets all six pins to `OUTPUT`. Called once from `setup()`.
@@ -94,7 +94,7 @@ Commands are case-insensitive and whitespace is trimmed.
 
 `car.ino` defines three rover states:
 
-```
+``` c++
 enum ROVER_STATE{BT_CONTROL=1,SCAN,AUTONOMOUS};
 ```
 
