@@ -1,6 +1,19 @@
-#ifndef MOVEMENT_H
-#define MOVEMENT_H
+#ifndef EUGENE_H
+#define EUGENE_H
 #include <Arduino.h>
+
+
+class Command{
+  private:
+    String inputString = "";
+    bool stringComplete = false;
+
+  public:
+    //command methods
+    void setCommand();
+    void parseCommand();
+    void listOfCommands();
+};
 
 
 
